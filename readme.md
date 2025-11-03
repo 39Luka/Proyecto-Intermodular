@@ -2,3 +2,6 @@
 Este proyecto tiene como objetivo desarrollar una aplicación digital para la panadería de mi pueblo, con el fin de mejorar la comunicación con los clientes y facilitar la experiencia de compra. La aplicación permitirá consultar productos, ofertas, realizar pedidos y hacer encargos especiales, así como acceder a información sobre el estado de los pedidos y datos de contacto. También incluirá un sistema de fidelización que recompense a los clientes habituales. 
 
 El diseño será atractivo, claro e intuitivo, pensado para todo tipo de usuarios. Además, la aplicación permitirá a la panadería dar a conocer nuevas promociones y productos de manera más directa, aumentando su visibilidad y favoreciendo un servicio más cercano y personalizado. Con esta iniciativa se busca mejorar la satisfacción del cliente y fortalecer la relación con la comunidad local. 
+
+[Planteamiento inicial](Fase_1.md)
+[Requisitos funcionales y no funcionales](Fase_2.md)
