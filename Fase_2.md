@@ -7,7 +7,7 @@
 
 ### Usuarios
 El sistema debe permitir a los usuarios:  
-- Registrarse proporcionando su nombre y teléfono.  
+- Registrarse proporcionando su nombre de usuario.  
 - Iniciar sesión y cerrar sesión.  
 - Consultar y actualizar su perfil básico.  
 
@@ -18,14 +18,14 @@ El sistema debe:
 
 ### Pedidos
 El sistema debe:  
-- Permitir a los usuarios realizar pedidos online.  
-- Mostrar el estado de los pedidos (pendiente o listo).  
+- Permitir a los usuarios realizar pedidos con recogida en tienda.  
+- Mostrar el estado de los pedidos (pendiente, listo, cancelado).  
 - Notificar al usuario cuando su pedido sea confirmado.  
 
 ### Promociones y fidelización
 El sistema debe:  
 - Mostrar las ofertas y promociones disponibles.  
-- Permitir que los usuarios acumulen puntos o reciban descuentos simples.  
+- Permitir que los usuarios reciban descuentos simples.  
 
 ### Administración básica
 El sistema debe permitir al personal:  
@@ -60,11 +60,11 @@ La aplicación debe:
 ## Estudio del Arte
 
 ### Soluciones similares
-En la zona de Elche y Torrellano, panaderías como La Magdalena o La Baguetteria tienen páginas web o redes sociales, pero no apps móviles propias. Los pedidos suelen hacerse por teléfono o en persona.
+En la zona de Elche y Torrellano, muchas panaderías como **La Magdalena** o **La Baguetteria** tienen presencia en internet mediante páginas web o redes sociales, donde informan sobre sus productos y novedades. Sin embargo, no cuentan con aplicaciones móviles propias, por lo que los clientes siguen haciendo pedidos por teléfono o acudiendo directamente a la tienda. 
 
-Aplicaciones como **Glovo, Uber Eats o Bakeronline** permiten pedidos online y promociones, pero no son exclusivas de cada panadería y reducen el contacto directo con el cliente.
+Existen también aplicaciones de terceros, como **Glovo, Uber Eats o Bakeronline**, que permiten hacer pedidos online, recibir productos a domicilio y aprovechar promociones. Aunque son cómodas, no son exclusivas de cada panadería, y los comercios pierden contacto directo con sus clientes. 
 
-El sistema de fidelización de **Consum** es similar: puntos y descuentos personalizados, pero está pensado para una gran cadena, no para comercios locales.
+Un sistema parecido al que ofrecerá la aplicación de la panadería se encuentra en **Consum**, donde los clientes acumulan puntos y reciben descuentos mediante su tarjeta o aplicación. Este tipo de fidelización funciona bien, pero está pensado para una cooperativa y no es habitual en panaderías locales. 
 
 ---
 
@@ -87,8 +87,8 @@ El sistema de fidelización de **Consum** es similar: puntos y descuentos person
 ### Aportación del proyecto
 La aplicación ofrece ventajas únicas frente a opciones actuales:  
 - Catálogo digital completo con fotos, precios y disponibilidad.  
-- Pedidos directos desde la app, incluidos encargos especiales.  
-- Sistema de fidelización con puntos y descuentos.  
+- Pedidos directos desde la app.  
+- Sistema de fidelización con descuentos.  
 - Ofertas personalizadas según hábitos del cliente.  
 - La panadería mantiene control total, sin depender de terceros.  
 
@@ -99,14 +99,21 @@ La aplicación ofrece ventajas únicas frente a opciones actuales:
 ### Viabilidad técnica
 
 #### Tecnologías
-- **React (web)** — interfaz del catálogo y pedidos.  
-- **Kotlin (Android)** — app móvil nativa.  
-- **Spring Boot (backend)** — API y lógica de negocio.  
-- **MariaDB** — base de datos.  
-- **Docker** — despliegue de backend.  
-- **AWS (EC2 y RDS)** — hosting usando laboratorio gratuito.  
-- **GitHub** — control de versiones.  
-- **Firebase Cloud Messaging** — notificaciones push.  
+- **React (web)**: permite crear la interfaz del catálogo y los pedidos desde el navegador. Se eligió porque se aprenderá durante el curso y permite practicar directamente lo que se imparta. 
+
+- **Kotlin (Android)**: se usará para desarrollar la app móvil nativa de Android, haciendo que funcione bien en dispositivos móviles. Se eligió porque se aprenderá durante el curso y es el lenguaje oficial de Android. 
+
+- **Spring Boot (backend)**: gestiona la API que controla productos, pedidos y usuarios, y facilita la conexión con la base de datos. Se eligió porque se aprenderá durante el curso y permite organizar el backend de forma clara y eficiente. 
+
+- **MariaDB**: guarda la información de clientes, productos y pedidos. Se eligió porque ya se conocía del curso anterior, lo que evita aprender una base de datos nueva. 
+
+- **Docker**: permite contenerizar la API y desplegarla fácilmente, asegurando que funcione igual en local o en un servidor real. Se eligió porque ya se conocía del curso anterior. 
+
+- **AWS (EC2 y RDS)**: se aprovechará el laboratorio gratuito de AWS para subir la API y la base de datos, sin coste. En un proyecto real, se usaría de manera similar, pagando solo por los recursos necesarios. 
+
+- **GitHub**: sirve para controlar versiones y seguir el proyecto de manera organizada. Se eligió porque ya se conocía del curso anterior. 
+
+- **Firebase Cloud Messaging**: se investigará para añadir notificaciones push sobre pedidos o promociones. 
 
 Con estas herramientas puede desarrollarse un **MVP en 4 meses**.
 
@@ -124,12 +131,19 @@ Con estas herramientas puede desarrollarse un **MVP en 4 meses**.
 | Backups | 0 € | ~5 €/mes |
 | **Total aproximado** | **0 €** | **~55 €/mes ≈ 650 €/año** |
 
+En el desarrollo académico se trabajará en localhost y con el laboratorio gratuito de AWS, por lo que el coste es 0 €. 
+
+En producción, AWS cubriría servidor, base de datos y almacenamiento con un coste bajo y escalable. 
+
+Dominio y SSL permitirían que la aplicación sea accesible y segura para los clientes. 
+Las copias de seguridad ayudan a proteger los datos y garantizar que la aplicación funcione correctamente a largo plazo. 
+
 ---
 
 ### Viabilidad operativa
 
 #### Implementación y mantenimiento
-- MVP desarrollable por una sola persona en **4 meses**.  
+- El MVP se puede desarrollar sola en 4 meses, incluyendo catálogo, pedidos básicos y panel de administración.  
 - Funciones extra si hay tiempo.  
 
 #### Esfuerzo para usuarios y panadería
@@ -137,6 +151,5 @@ Con estas herramientas puede desarrollarse un **MVP en 4 meses**.
 - Mantenimiento bajo: copias de seguridad y actualizaciones.  
 
 #### Continuidad a futuro
-- **1–2 años:** mantenible por 1–2 personas.  
-- **3–5 años:** escalable; AWS permite crecer fácilmente.  
-- Tecnologías comunes facilitan que otros desarrolladores continúen el proyecto.  
+- **1–2 años:** un pequeño grupo de 1–2 personas podrían mantener la apli sin problemas, realizando copias de seguridad, actualizaciones y supervisión rutinaria. 
+- **3–5 años:** la aplicación es escalable; se pueden aumentar recursos en AWS y añadir nuevas funciones si crece el número de usuarios. Las tecnologías elegidas permiten que otros desarrolladores puedan continuar el proyecto o añadir mejoras fácilmente. 
