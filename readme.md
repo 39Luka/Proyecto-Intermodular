@@ -4,4 +4,5 @@ Este proyecto tiene como objetivo desarrollar una aplicación digital para la pa
 El diseño será atractivo, claro e intuitivo, pensado para todo tipo de usuarios. Además, la aplicación permitirá a la panadería dar a conocer nuevas promociones y productos de manera más directa, aumentando su visibilidad y favoreciendo un servicio más cercano y personalizado. Con esta iniciativa se busca mejorar la satisfacción del cliente y fortalecer la relación con la comunidad local. 
 
 [Planteamiento inicial](Fase_1.md)
+
 [Requisitos funcionales y no funcionales](Fase_2.md)
