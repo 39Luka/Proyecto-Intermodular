@@ -1,0 +1,24 @@
+@startuml
+left to right direction
+
+actor "Cliente\n(Actor Principal)" as Cliente
+actor "Administrador\n(Actor Secundario)" as Admin
+
+Cliente --> (Registrarse)
+Cliente --> (Iniciar sesión)
+Cliente --> (Consultar catálogo)
+Cliente --> (Ver promociones)
+Cliente --> (Añadir producto al carrito)
+Cliente --> (Realizar pedido / reserva)
+Cliente --> (Consultar estado del pedido)
+Cliente --> (Editar perfil)
+Cliente --> (Cerrar sesión)
+
+Admin --> (Iniciar sesión)
+Admin --> (Editar perfil)
+Admin --> (Gestionar productos)
+Admin --> (Gestionar promociones)
+Admin --> (Gestionar pedidos)
+Admin --> (Cerrar sesión)
+
+@enduml
