@@ -1,0 +1,90 @@
+```mermaid
+classDiagram
+    %% Clases principales
+    class Usuario {
+        -int id_usuario
+        -string nombre
+        -string email
+        -string contrasena
+        -rol: enum 
+
+        %% Métodos
+        +registrarse(nombre, email, contrasena)
+        +iniciarSesion(email, contrasena)
+        +cerrarSesion()
+        +cambiarFoto(foto)
+        +cambiarContrasena(contrasena)
+        +verPerfil()
+    }
+
+    class Producto {
+        -int id_producto
+        -string nombre
+        -string descripcion
+        -decimal precio
+        -int stock
+
+        %% Métodos 
+        +consultarCatalogo()
+        +verProducto(id_producto)
+        +crearProducto(datos)
+        +actualizarProducto(id_producto, datos)
+        +eliminarProducto(id_producto)
+    }
+
+    class Promocion {
+        -int id_promocion
+        -string descripcion
+        -decimal descuento
+        -date fecha_inicio
+        -date fecha_fin
+
+        %% Métodos 
+        +verPromociones()
+        +crearPromocion(datos)
+        +actualizarPromocion(id_promocion, datos)
+        +eliminarPromocion(id_promocion)
+    }
+
+    class Compra {
+        -int id_compra
+        -int id_usuario
+        -date fecha
+        -estado: enum 
+
+        %% Métodos 
+        +realizarPedido(datos)
+        +consultarEstado(id_compra)
+        +listarPedidos(usuario_id)
+        +actualizarEstado(id_compra, estado)
+    }
+
+    class Detalle_Compra {
+        -int id_detalle
+        -int id_compra
+        -int id_producto
+        -int cantidad
+        -decimal subtotal
+
+        %% Métodos
+        +añadirProducto(id_compra, id_producto, cantidad)
+    }
+
+    class Usuario_Promocion {
+        -int id_usuario
+        -int id_promocion
+
+        %% Métodos 
+        +asignarPromocion(usuario_id, promocion_id)
+        +eliminarPromocion(usuario_id, promocion_id)
+        +listarPromociones(usuario_id)
+    }
+
+    %% Relaciones
+    Usuario "1" --> "*" Compra : realiza
+    Compra "1" --> "*" Detalle_Compra : contiene
+    Detalle_Compra "*" --> "1" Producto : referencia
+    Compra "*" --> "0..1" Promocion : aplica
+    Usuario "*" --> "*" Promocion : tiene_cupones
+    Usuario_Promocion "*" --> "1" Usuario : usuario
+    Usuario_Promocion "*" --> "1" Promocion : promocion
