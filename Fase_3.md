@@ -30,7 +30,7 @@ A continuación, se muestra el árbol de navegación de la aplicación, que repr
 ## Wireframe y MockUp
 
 Se han realizado el Wireframe y el Mockup de la versión web y móvil en Figma, los cuales pueden consultarse en el siguiente enlace:  
-🔗 [Wireframe y Mockup en Figma](https://www.figma.com/design/XRKvgpyaF6XzulVBCb31DF/Sin-t%C3%ADtulo?node-id=6-109&t=wlnTm7AMCfvm5mup-1)
+🔗 [Wireframe y Mockup en Figma]()
 
 ![Wireframe y Mockup](pega_aquí_imagen_wireframe.jpg)
 
@@ -41,7 +41,7 @@ Se han realizado el Wireframe y el Mockup de la versión web y móvil en Figma, 
 Se ha desarrollado el Design System en Figma, disponible en el siguiente enlace:  
 🔗 [Design System en Figma](https://www.figma.com/design/XRKvgpyaF6XzulVBCb31DF/Sin-t%C3%ADtulo?node-id=35-419&t=FnXnDonoch5UBNvE-1)
 
-![Design System](pega_aquí_imagen_designsystem.jpg)
+![Design System]([pega_aquí_imagen_designsystem.jpg](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/figma_design.png?raw=true))
 
 ---
 
