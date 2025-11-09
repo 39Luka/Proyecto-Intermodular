@@ -63,6 +63,7 @@ En cuanto a la **tipografía**, decidí no limitarme a una sola fuente. Utilicé
 ![Tipografía](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/typografy.png?raw=true)
 ![Tipografía encabezado](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/headings_typografy.png?raw=true)
 ![Tipografía cuerpo](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/body_typografy.png?raw=true)
+![Elementos](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/elementos.png?raw=true)
 
 
 ---
@@ -79,16 +80,16 @@ En los formularios, los campos están organizados de forma lógica, con etiqueta
 La pantalla del carrito muestra claramente los productos seleccionados antes de confirmar la compra, mostrando la intención de guiar al usuario y reducir errores.
 
 ### Distribución clara y coherente de las páginas principales
-![Distribución](pega_aquí_imagen_distribucion.jpg)
+![Distribución](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/funciones.png?raw=true)
 
 ### Botones consistentes
-![Botones consistentes](pega_aquí_imagen_botones.jpg)
+![Botones consistentes](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/botones.png?raw=true)
 
 ### Repetir contraseña para evitar errores
-![Repetir contraseña](pega_aquí_imagen_repetir_contraseña.jpg)
+![Repetir contraseña](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/contrase%C3%B1a_repetir.png?raw=true)
 
 ### Página del carrito para confirmar compra
-![Carrito](pega_aquí_imagen_carrito.jpg)
+![Carrito](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/carrito_mockup.png?raw=true)
 
 ---
 
@@ -96,8 +97,10 @@ Aplicando las **heurísticas de Nielsen**, se asegura que los usuarios puedan re
 En la versión móvil, los iconos por sí solos son reconocibles, mientras que en la versión web se acompañan de texto para reforzar su comprensión.  
 La consistencia en colores, tipografía, tamaños y diseño de los botones reduce la carga cognitiva y genera una experiencia más intuitiva.
 
-![Iconografía de Google](pega_aquí_imagen_iconos.jpg)
-![Funciones reconocibles](pega_aquí_imagen_funciones.jpg)
+![Iconografía de Google](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/iconos.png?raw=true)
+![Funciones reconocibles web](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/barra_web.png?raw=true)
+![Funciones reconocibles móvil](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/barra_movil.png?raw=true)
+
 
 ---
 
@@ -105,8 +108,10 @@ Respecto a la **accesibilidad (WCAG)**, se ha cuidado que exista un buen **contr
 Los títulos, subtítulos y elementos de contenido presentan una jerarquía visual clara, lo que facilita la comprensión rápida.  
 Además, los botones y campos tienen un tamaño suficiente y están espaciados adecuadamente, anticipando una buena experiencia en dispositivos móviles y para usuarios con dificultades motoras.  
 
-![Contrastes](pega_aquí_imagen_contrastes.jpg)
-![Jerarquía de los textos](pega_aquí_imagen_jerarquia.jpg)
+![Contrastes](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/contraste2.png?raw=true)
+![Contrastes](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/contraste1.png?raw=true)
+
+![Jerarquía de los textos](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/orden_headings.png?raw=true)
 
 ---
 
@@ -119,7 +124,7 @@ En cuanto al **diseño inclusivo**, el mockup contempla distintos tipos de usuar
 El lenguaje es **claro y directo**, con etiquetas comprensibles que facilitan la interacción para personas con diferentes niveles de alfabetización digital o habilidades cognitivas.  
 La **iconografía estándar** garantiza que los elementos sean reconocibles y compatibles con tecnologías asistivas.
 
-![Diseño inclusivo](pega_aquí_imagen_inclusivo.jpg)
+![Diseño inclusivo](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/inicio_registro.png?raw=true)
 
 ---
 
@@ -174,7 +179,9 @@ Cada caso detalla al actor involucrado, el objetivo que busca alcanzar y el fluj
 
 El siguiente diagrama EER representa de manera gráfica la estructura de la base de datos de la aplicación, mostrando las entidades principales, sus atributos y las relaciones entre ellas.
 
-![Diagrama EER](pega_aquí_imagen_eer.jpg)
+![Diagrama EER](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/database_eer_photo.png?raw=true)
+
+
 
 ---
 
@@ -182,5 +189,8 @@ El siguiente diagrama EER representa de manera gráfica la estructura de la base
 
 El siguiente diagrama de clases representa la estructura estática de la aplicación, mostrando las clases principales, sus atributos, métodos y las relaciones entre ellas.
 
-![Diagrama de clases](pega_aquí_imagen_clases.jpg)
+![Diagrama de clases](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/diagrama_de_clases.png?raw=true)
+
+
+![Diagrama de clases](https://github.com/39Luka/Proyecto-Intermodular/blob/master/diagramas/diagrama_clases.md)
 
