@@ -41,8 +41,6 @@ Se han realizado el Wireframe y el Mockup de la versión web y móvil en Figma, 
 Se ha desarrollado el Design System en Figma, disponible en el siguiente enlace:  
 🔗 [Design System en Figma](https://www.figma.com/design/XRKvgpyaF6XzulVBCb31DF/Sin-t%C3%ADtulo?node-id=35-419&t=FnXnDonoch5UBNvE-1)
 
-![Design System]([pega_aquí_imagen_designsystem.jpg](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/figma_design.png?raw=true))
-
 ---
 
 ## Justificación de paleta de colores y tipografía
@@ -60,7 +58,12 @@ En cuanto a la **tipografía**, decidí no limitarme a una sola fuente. Utilicé
 - Para los títulos utilicé una tipografía más redondeada y llamativa, como **Nunito**, ya que ayuda a diferenciar bien las secciones y da un aspecto más accesible.  
 - Para el texto principal utilicé una fuente más limpia y sencilla, como **DM Sans**, porque es más cómoda de leer en pantalla y mantiene el diseño claro.
 
-![Paleta y tipografía](pega_aquí_imagen_paleta_tipografia.jpg)
+![Paleta principal](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/colores_1.png?raw=true)
+![Paleta secundaria](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/colores_2.png?raw=true)
+![Tipografía](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/typografy.png?raw=true)
+![Tipografía encabezado](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/headings_typografy.png?raw=true)
+![Tipografía cuerpo](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/body_typografy.png?raw=true)
+
 
 ---
 
