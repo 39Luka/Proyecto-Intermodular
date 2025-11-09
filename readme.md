@@ -6,3 +6,5 @@ El diseño será atractivo, claro e intuitivo, pensado para todo tipo de usuario
 [Planteamiento inicial](Fase_1.md)
 
 [Requisitos funcionales y no funcionales](Fase_2.md)
+
+[Diseño de la aplicación](Fase_3.md)
