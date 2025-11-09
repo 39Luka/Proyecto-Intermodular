@@ -23,7 +23,7 @@ A continuación, se presenta el inventario de contenidos de la aplicación, orga
 
 A continuación, se muestra el árbol de navegación de la aplicación, que representa de manera jerárquica la estructura de las secciones y pantallas disponibles. Este esquema permite visualizar cómo los usuarios se desplazan entre las diferentes áreas de la aplicación y cómo se organizan las funciones dentro del proyecto.
 
-![Árbol de navegación](pega_aquí_tu_imagen_arbol.jpg)
+![Árbol de navegación](https://github.com/39Luka/Proyecto-Intermodular/blob/master/img/arbol_de_navegacion.jpg?raw=true)
 
 ---
 
