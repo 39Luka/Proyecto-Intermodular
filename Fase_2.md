@@ -113,7 +113,7 @@ La aplicación ofrece ventajas únicas frente a opciones actuales:
 
 - **GitHub**: sirve para controlar versiones y seguir el proyecto de manera organizada. Se eligió porque ya se conocía del curso anterior. 
 
-- **Firebase Cloud Messaging**: se investigará para añadir notificaciones push sobre pedidos o promociones. 
+- **Firebase Cloud Messaging**: se investigará para añadir notificaciones push sobre pedidos o promociones. (Extra)
 
 Con estas herramientas puede desarrollarse un **MVP en 4 meses**.
 
